@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 #
 # Tool for merging and sorting trace data of a guest and host
-#
-# Created by Yoshihiro YUNOMAE <yoshihiro.yunomae.ez@hitachi.com>
+# Host trace also includes QEMU traces if properly configured.
+# We print a 'q' character in front of the QEMU traces
 #
 # - How to use
 # ./trace-merge.pl <-h host_data -g guest_data -t tsc_offset_value>
